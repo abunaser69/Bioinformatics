@@ -231,7 +231,7 @@ from Bio import SeqIO #To work with FASTA format
 from Bio.SeqIO.FastaIO import SimpleFastaParser
 
 
-Entrez.email = "naser.abu@gmail.com"
+Entrez.email = "*****@gmail.com"
 
 #obtains plain text records in FASTA format from NCBI's [Nucleotide] database.
 handle = Entrez.efetch(db="nucleotide", id=["FJ817486, JX069768, JX469983"], rettype="fasta")
