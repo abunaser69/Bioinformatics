@@ -206,7 +206,7 @@ geneName = "Anthoxanthum"
 pubDateStart = "2003/7/25"
 pubDateEnd = "2005/12/27"
 searchTerm = f'({geneName}[Organism]) AND("{pubDateStart}"[Publication Date]: "{pubDateEnd}"[Publication Date])'
-Entrez.email = "naser.abu@gmail.com"
+Entrez.email = "....@gmail.com"
 handle = Entrez.esearch(db="nucleotide", term=searchTerm)
 record = Entrez.read(handle)
 record["Count"]
