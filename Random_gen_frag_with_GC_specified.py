@@ -11,3 +11,5 @@ def gen_rand_DNA(N, L):
             dic[count].append(DNA)
             count +=1
     return dic
+
+a = gen_rand_DNA(5, 10)
